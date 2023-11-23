@@ -1,0 +1,132 @@
+@charset "UTF-8";
+/*
+  Theme Name: mobo+
+  Author: ALI POOYAEY fard
+  Description: this theme designed by ALI POOYAEY from team Parsiche.
+  Version: 1.0.0
+*/
+/* GLOBAL
+----------------------*/
+
+@font-face {
+  font-family: IrYekan;
+  src: url('../fonts/Yekan.ttf'); 
+}
+
+@font-face {
+  font-family: IrYekan;
+  src: url('../fonts/Yekan.ttf'); 
+}
+
+@font-face {
+  font-family: IrYekan;
+  src: url('../fonts/Yekan.ttf'); 
+}
+
+@font-face {
+  font-family: IrYekan;
+  src: url('../fonts/Yekan.ttf'); 
+}
+
+body {
+	text-align:justify;
+    font-family: IrYekan;
+    position: relative;
+    text-align:right;
+}
+
+h1 {
+    font-size: 40px;
+    letter-spacing: -1px;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 300;
+    letter-spacing: -1px;
+
+}
+
+h3 {
+    font-size: 33px;
+    font-weight: 500;
+}
+
+h4 {
+    font-size: 23px;
+    font-weight: 500;
+}
+
+
+
+
+/*  TABS
+----------------------*/
+
+.tab-content p {
+    line-height: 1.8;
+}
+
+.nav-tabs .nav-item .nav-link,
+.nav-tabs .nav-link:focus,
+.nav-tabs .nav-link:hover {
+    font-size: 19px;
+}
+
+
+
+
+.navbar-nav {
+    margin-left: initial!important;
+    margin-right: auto!important;
+}
+
+
+.nav {
+    padding-right: 0;
+}
+
+.owl-carousel {
+    direction:ltr;
+}
+
+.pricing ul {
+	padding-left: initial;
+    padding-right: initial;
+}
+
+.sec-faq, .sec-faq p {
+	text-align: right;
+	direction:rtl;
+}
+
+
+.card-title, .card-text {
+	text-align:right!important;
+}
+
+.call-to-action h2,.call-to-action p,.call-to-action small {
+    text-align:center!important;
+}
+
+.navbar-brand {
+    margin-right: initial;
+    margin-left: 1rem;
+}
+
+.ti-headphone-alt::before, .ti-email::before {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+span.ti-email, span.ti-headphone-alt {
+	position:relative;
+}
+
+.faq-area {
+	direction:ltr;
+
+	
+}
+
